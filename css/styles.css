@@ -1,0 +1,203 @@
+/********************  TAG Selector  ***********/
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p {
+  color: #000000;
+}
+
+h5 {
+  color: #6c6565;
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/*******************  Class Selector  *********/
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.white {
+  color: #ffffff;
+}
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.New-bootstrap-problem {
+  position: relative;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.testimonials-image {
+  width: 40%;
+  /* border-radius: 100%; */
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.custom-carousel {
+  padding: 7% 15% 30%;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.icons {
+  padding: 1% 0.5%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.suits {
+  font-family: "Montserrat";
+  padding-top: 5px;
+  color: #ffffff;
+}
+
+.coatSize {
+  width: 80%;
+}
+
+/******************  ID Selector  *********/
+
+#title {
+  background-color: #6c6565;
+  color: #ffffff;
+  /*padding-bottom: 3%; */
+  height: 150px;
+}
+
+#features {
+  padding: 7% 15%;
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #c4bebe;
+
+  color: #000000;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  color: #fff;
+  background-color: #6c6565;
+  text-align: center;
+  padding: 3% 7%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 7%;
+}
+
+#menFashion {
+  text-align: center;
+  background-color: #6c6565;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*******************   media query breakpoints  *****************/
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .New-bootstrap-problem {
+    position: static;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
